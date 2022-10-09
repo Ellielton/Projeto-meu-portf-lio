@@ -1,13 +1,24 @@
+body{
+    background-color: rgb(147, 156, 201);
+
+}
+
 header{
     background-color: #5e0113; /**/
     padding: 20px 0;              /*aplica espaçamento interno 20px top e buttom e 0px para right e light assim os elementos dentro do heder ão encostam na margem*/
 }
 
 .caixa{
-    position: relative;                     /* levanta a div caixa para poder posicionar o menu nav dentro dela que esta com position absoluto: ponto inicial com relação a pagina inteira*/
-    background-color: rgb(147, 156, 201);
+    position: relative;                   /* levanta a div caixa para poder posicionar o menu nav dentro dela que esta com position absoluto: ponto inicial com relação a pagina inteira*/
     width: 940px;    /*Largura da pagina*/
     margin:0 auto;   /* centraliza a caixa e calculo automatico das margens laterais */
+}
+.foto{
+    margin: 0px 0 0 0px;
+    border: 2px solid ;
+    border-radius: 100px;
+    width: 120px;           /*largura*/
+    height: 150px;          /*altura*/
 }
 
 nav{
@@ -30,10 +41,4 @@ nav a{
     text-decoration: none;    /*Retira a sublinhado aplicado pela tag ancora*/
 }
 
-.foto{
-    margin: 18px 0 0 18px;
-    border: 3px solid ;
-    border-radius: 150px;
-    width: 120px;
-    height: 150px;
-}
+
