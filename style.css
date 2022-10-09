@@ -1,0 +1,22 @@
+header{
+    margin-top: 0px 0px 0px 0px;
+    width: 1340px;
+    height: 200px;
+
+    border-radius: 10px;
+    background-color: #5e0113;
+}
+.caixa{
+    background-color: rgb(147, 156, 201);
+    border-radius: 50px;
+    width: 1300px;
+    height:200px;
+    margin:0px 0px 0px 20px;
+}
+.foto{
+    margin: 20px 20px 20px 30px;
+    border: 3px solid ;
+    border-radius: 150px;
+    width: 10vw;
+    height: 20vh;
+}
